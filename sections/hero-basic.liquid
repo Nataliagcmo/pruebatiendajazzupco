@@ -1,19 +1,39 @@
 <section class="hero">
-    <div class="hero_content">
-        <h1>welcome to our store</h1>
-        <p>this is main hero section</p>
-        <a href="#" class="hero_button">shop now </a>
+  <div class="hero_container">
+    <div class="hero__left">
+      <span class="hero_badge"> ★★★★★ Trusted by 50,000+ happy customers </span>
+
+      <h1 class="hero__title">welcome to our store</h1>
+
+      <p class="hero__text">
+        From baby's first drops to your daily essentials, Live Wise keeps the whole family nourished, naturally.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#" class="hero_button hero_button--primary"> Shop now </a>
+
+        <a href="#" class="hero_button hero_button--secondary"> Explore products → </a>
+      </div>
     </div>
+   <div class="hero_right">
+    <img
+        src="https://via.placeholder.com/400x500"
+        alt="Main product"
+        class="hero__product"
+        >
+    </div>
+    
+  </div>
 </section>
 
 {% schema %}
 {
-    "name": "Hero Basic",
-    "settings": [],
-    "presets": [
-        {
-            "name": "Hero Basic"
-        }
-    ]
+  "name": "Hero Basic",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Hero Basic"
+    }
+  ]
 }
 {% endschema %}
